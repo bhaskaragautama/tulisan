@@ -19,3 +19,7 @@ a {
 .img {
    text-align: center;
 }
+
+[data-type="gif"]:hover {
+   cursor: pointer;
+}
