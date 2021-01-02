@@ -6,9 +6,8 @@ function setCookie(cname, cvalue, exdays) {
  }
 
 function jQexec(nim){
-   var auth = ['160010222','170010133','170030036','170030563','170030659','170030817','180030021','190030016'];
-   if(auth.indexOf(nim) >= 0) {
-      setCookie('nim',nim,30);
+   if(hoom.indexOf(md5(nim)) >= 0) {
+      setCookie('nim',md5(nim),30);
       window.location.href='home.html';
    } else {
       return 0;

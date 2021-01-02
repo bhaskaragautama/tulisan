@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Welcome!</title>
+</head>
+<body>
+   <div id="results"></div>
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script src="assets/js/md5/md5.min.js"></script>
+   <script>
+      function convert(list){
+         var results = '\'';
+         $.each(list, function (index, item) {
+            results += md5(item);
+            results += '\',<br>\'';
+         });
+         results = results.slice(0,-6);
+         $('#results').html(results);
+      }
+      var numb = [
+         
+      ];
+      convert(numb);
+   </script>
+</body>
+</html>

@@ -25,7 +25,7 @@
                </div>
             </div>
             <div id="nope" class="alert alert-danger mt-3 text-center" style="display: none;">
-               You are not authorized to access this page. This is some kind of security, like a bony young dude with a water toy-gun who keep a box full of free keychain. So yes, there is no sensitive data involved. But, why security tho? To make sure that only certain people can access the information, unless you have a good head on your shoulder *wink*
+               You are not authorized to access this page. If you are, please make sure to submit a correct student ID. This is some kind of lame security, like a small brats holding a water toy-gun who keep a box full of free gifts. So yes, there is no sensitive data involved. But, why security tho? Just want to limit the access to certain people. Unless you, a random dude on the internet, have a good head on your shoulder *wink*
             </div>
          </div>
       </div>
@@ -33,14 +33,25 @@
 
    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <script src="assets/js/md5/md5.min.js"></script>
+   <script src="assets/js/hooman-rights.js"></script>
    <script src="assets/js/hooman.js"></script>
    <script>
+      function secutiry() {
+         var jQ42hf54 = $('#jQ42hf54').val();
+         if(jQexec(jQ42hf54) == 0){
+            $('#nope').fadeIn();
+         }
+      }
       $(document).ready(function () {
          $('#check').click(function (e) { 
             e.preventDefault();
-            var jQ42hf54 = $('#jQ42hf54').val();
-            if(jQexec(jQ42hf54) == 0){
-               $('#nope').fadeIn();
+            secutiry();
+         });
+         $('#jQ42hf54').keypress(function (e) { 
+            var key = e.which;
+            if(key == 13) {
+               secutiry();
             }
          });
       });
