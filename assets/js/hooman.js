@@ -7,7 +7,7 @@ function setCookie(cname, cvalue, exdays) {
 
 function jQexec(nim){
    if(hoom.indexOf(md5(nim)) >= 0) {
-      setCookie('nim',md5(nim),30);
+      setCookie('nim',nim,30);
       window.location.href='home.html';
    } else {
       return 0;
