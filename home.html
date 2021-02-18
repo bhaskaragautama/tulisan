@@ -39,6 +39,7 @@
                   <li><a class="dropdown-item" href="#text-boundaries">Text Boundaries</a></li>
                   <li><a class="dropdown-item" href="#proofing-tools">Proofing Tools Microsoft Word</a></li>
                </ul>
+               <button id="logout" class="btn btn-danger float-end">Get me outta here!</button>
             </div>
             
             <div class="mt-5 content" id="copy-paste">
@@ -269,6 +270,11 @@
             if($(this).data('type') == 'gif'){
                $(this).children().attr('src',$(this).children().attr('src')+'?');
             }
+         });
+         $('#logout').click(function (e) { 
+            e.preventDefault();
+            document.cookie = "nim=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            window.location.href = 'index.html';
          });
       });
    </script>
