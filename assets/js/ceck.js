@@ -4,7 +4,7 @@ var fbd = false;
 ck.forEach(function(el, idx) {
    hooman = el.split('=');
    if(hooman[0].trim() == 'nim') {
-      if(hoom.indexOf(md5(hooman[1])) == 0) {
+      if(hoom.indexOf(md5(hooman[1])) >= 0) {
          fbd = true;
       }
    }
