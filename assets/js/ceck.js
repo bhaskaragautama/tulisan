@@ -11,5 +11,5 @@ ck.forEach(function(el, idx) {
    }
 });
 if(!fbd) {
-   window.location.href='index.html';
+   // window.location.href='index.html';
 }
