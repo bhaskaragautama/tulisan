@@ -23,5 +23,9 @@ var hoom = [
    '0ea1521b0866f6c13c30e98a5ffe06d0',
    '1bdc81643cf6d8ae3dfd75c375697f07',
    '14d874b1ab56d567ae4bfb4e63e10a0a',
+<<<<<<< HEAD
    '951bad66aa702e0b04479364dccdf35b'
+=======
+   'bae6ffa94bb68ad394d58ee6f4cdcb94'
+>>>>>>> 03d9d099d9b10040d50386eb4615f6e96b98f965
 ];
