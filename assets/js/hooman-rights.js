@@ -29,5 +29,7 @@ var hoom = [
    'bd6e5a1edc9a62c3138e0d0ee83061fe',
    '1bbab6d91aeba21cdee7b1f3556dd2b7',
    'db95f3a19f24c8aa987de86c59e83f5c',
-   'ba00c73c8264fe89341e0de5569d3608'
+   'ba00c73c8264fe89341e0de5569d3608',
+   'f1862b14c5f5236504abd14516bf5786',
+   '0efd18da9e9381a7be43b6d9a371f91a'
 ];
