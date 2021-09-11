@@ -52,5 +52,8 @@ var hoom = [
    'e0aab020c597934bbe726fb18574f3a8',
    '08a5e7d0095af532c88174feea6d3f84',
    'f19696e48ea8121458a4c434651312e4',
-   'd48ba8ceb1eea1471aaabcdaa512acf4'
+   'd48ba8ceb1eea1471aaabcdaa512acf4',
+   'accabe6e4bf8237f48674f2a54cdc9cd',
+   'da5203ef97f8643b750986870b1e3e16',
+   '0166d2a213da8b677ab3e02739ebf23c'
 ];
